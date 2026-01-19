@@ -6,15 +6,15 @@ Instructor: Prof. E. Reiter
 
 **Authors**: Rotariu A., Milne C., Bucci V., Nair K.
 
-### Team Contributions (from PDF Section 2.2.1)
+### Team Contributions 
 
 Each researcher recruited 5 participants of their own nationality:
 
 | Researcher | Nationality | Contribution |
 |------------|-------------|--------------|
 | Rotariu A. | Romanian | Data collection (5 Romanian participants) |
-| Milne C. | British | Data collection (5 British participants) |
-| Bucci V. | Italian | Data collection (5 Italian participants) |
+| Milne C. | British | Data collection (5 British participants) +  Report writing |
+| Bucci V. | Italian | Data collection (5 Italian participants) + Statistical analysis code + Report writing |
 | **Nair K.** | **Indian** | **Data collection (5 Indian participants) + Statistical analysis code (`analysis.ipynb`) + Report writing** |
 
 **Note**: The Indian participant data showed the **strongest statistical significance** (p = 0.006) - the largest performance gap between systems.
@@ -334,7 +334,6 @@ The study explicitly states:
 ## Repository Structure
 
 ```
-Academics/
 ├── analysis.ipynb          # Data analysis notebook
 ├── README.md               # This file
 ├── METHODOLOGY.md          # Detailed methodology explanation
