@@ -310,7 +310,6 @@ The study explicitly states:
 ## Repository Structure
 
 ```
-Academics/
 ├── analysis.ipynb          # Data analysis notebook
 ├── README.md               # This file
 ├── METHODOLOGY.md          # Detailed methodology explanation
