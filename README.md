@@ -14,7 +14,7 @@ Each researcher recruited 5 participants of their own nationality:
 |------------|-------------|--------------|
 | Rotariu A. | Romanian | Data collection (5 Romanian participants) |
 | Milne C. | British | Data collection (5 British participants) | Report Writing |
-| Bucci V. | Italian | Data collection (5 Italian participants) |  Statistical analysis +  Report writing |
+| Bucci V. | Italian | Data collection (5 Italian participants) | Statistical analysis +  Report writing |
 | **Nair K.** | **Indian** | **Data collection (5 Indian participants) + Statistical analysis code (`analysis.ipynb`) + Report writing** |
 
 **Note**: The Indian participant data showed the **strongest statistical significance** (p = 0.006) - the largest performance gap between systems.
