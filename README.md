@@ -6,7 +6,7 @@ Instructor: Prof. E. Reiter
 
 **Authors**: Rotariu A., Milne C., Bucci V., Nair K.
 
-### Team Contributions (from PDF Section 2.2.1)
+### Team Contributions 
 
 Each researcher recruited 5 participants of their own nationality:
 
