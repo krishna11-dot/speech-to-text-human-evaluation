@@ -6,15 +6,15 @@ Instructor: Prof. E. Reiter
 
 **Authors**: Rotariu A., Milne C., Bucci V., Nair K.
 
-### Team Contributions 
+### Team Contributions (from PDF Section 2.2.1)
 
 Each researcher recruited 5 participants of their own nationality:
 
 | Researcher | Nationality | Contribution |
 |------------|-------------|--------------|
 | Rotariu A. | Romanian | Data collection (5 Romanian participants) |
-| Milne C. | British | Data collection (5 British participants) + Report Writing |
-| Bucci V. | Italian | Data collection (5 Italian participants) + Statistical analysis +  Report writing |
+| Milne C. | British | Data collection (5 British participants) |
+| Bucci V. | Italian | Data collection (5 Italian participants) |
 | **Nair K.** | **Indian** | **Data collection (5 Indian participants) + Statistical analysis code (`analysis.ipynb`) + Report writing** |
 
 **Note**: The Indian participant data showed the **strongest statistical significance** (p = 0.006) - the largest performance gap between systems.
@@ -141,6 +141,30 @@ Each participant tests **both systems** on the **same sentences**.
 - **Ease of Use**: 7-point Likert scale after all 6 sentences
 - **Preference**: Binary choice at the end (Google or Microsoft)
 - **Open Feedback**: Free-text comments
+
+---
+
+## Ethics & Informed Consent
+
+### Ethical Considerations
+- **Informed Consent**: All participants provided informed consent before participating
+- **Voluntary Participation**: Participants could withdraw at any time without penalty
+- **Data Anonymization**: No personally identifiable information collected; responses linked only to nationality
+- **No Deception**: Participants were informed of the study's purpose (comparing STT systems)
+
+### Consent Form Contents
+Participants were informed of:
+1. Purpose of the study (comparing speech-to-text systems)
+2. What participation involves (speaking sentences, rating systems)
+3. That participation is voluntary
+4. How their data will be used (academic research only)
+5. Their right to withdraw at any time
+
+### Data Privacy
+- No audio recordings were stored
+- Only transcription ratings and feedback collected
+- Data used solely for academic evaluation purposes
+- Responses cannot be traced back to individual participants
 
 ---
 
@@ -310,6 +334,7 @@ The study explicitly states:
 ## Repository Structure
 
 ```
+Academics/
 ├── analysis.ipynb          # Data analysis notebook
 ├── README.md               # This file
 ├── METHODOLOGY.md          # Detailed methodology explanation
@@ -426,3 +451,38 @@ The WHY is actionable:
 | **Appropriate statistics** | Mann-Whitney for ordinal, binomial for binary |
 | **Honest about limitations** | Section 4.2, non-significant results acknowledged |
 | **Not over-engineered** | Simple tests, clear design, each part has a purpose |
+
+---
+
+## How to Run the Analysis
+
+```bash
+# Install dependencies
+pip install pandas scipy matplotlib seaborn colorcet numpy
+
+# Run the Jupyter notebook
+jupyter notebook analysis.ipynb
+```
+
+The notebook will:
+1. Load and clean the survey data
+2. Generate visualizations (histograms, pie charts)
+3. Run statistical tests (Mann-Whitney U, Binomial)
+4. Output results by difficulty level and nationality
+
+---
+
+## Citation
+
+If referencing this work:
+
+```
+Rotariu A., Milne C., Bucci V., Nair K. (2024). Speech to Text with Google and Microsoft:
+A Human Evaluation. CS5063: Evaluation of AI Systems, University of Aberdeen.
+```
+
+---
+
+## License
+
+This project is for academic and educational purposes. The analysis code is available for learning and reference.
